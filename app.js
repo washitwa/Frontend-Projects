@@ -53,7 +53,7 @@ function game(){
         blockLeft = parseInt(window.getComputedStyle(ob).getPropertyValue("left"));
     
         if(blockLeft<40 && blockLeft>0 && charTop>225){ 
-            ob.classList.remove("effects1"); 
+            ob.classList.remove("effect1"); 
             ball.style.backgroundColor = "black";
             ob.style.backgroundColor = "yellow";      
             msg.innerHTML = "Your Last Score: "+a;

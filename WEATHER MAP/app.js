@@ -54,7 +54,7 @@ function showError(error){
 }
 const kelvin = 273;
 //API key
-const key = "b60e50e183d7f5a2d3261d01385c9f87";
+const key = "b60e50e183d7f5a2d3261d01385c....";			//The key is unique. the last 4 dots are to be replaced with the actual characters
 
 function getWeather(latitude, longitude){
     let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
